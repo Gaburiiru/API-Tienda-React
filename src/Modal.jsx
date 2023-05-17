@@ -59,7 +59,7 @@ export function Modal({ productos, actualizarCarrito }) {
                 onClick={() => eliminarProducto(producto.id)}
               >
                 <img
-                  src="src/assets/img/eliminar.png"
+                  src="src/img/eliminar.png"
                   alt="Eliminar producto"
                   className="w-full h-full"
                 />
