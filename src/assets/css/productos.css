@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(167 243 208);
+}
+
+.resultados{
+    position: absolute;
+    color: black;
+    font-size: x-large;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
