@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { addProduct} from "./redux/productSlice";
 import { v4 as uuidv4 } from "uuid";
 import { Modal } from "./Modal";
-import "/assets/css/productos.css";
+import "/src/assets/css/productos.css";
 
 export let carrito = [];
 let carritoAbierto = false;
