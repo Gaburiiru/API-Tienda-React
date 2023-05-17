@@ -1,4 +1,4 @@
-import eliminarImg from '/assets/img/eliminar.png'
+import eliminarImg from './assets/img/eliminar.png'
 
 const assets = {
     eliminarImg
