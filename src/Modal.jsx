@@ -1,4 +1,5 @@
 import React from "react";
+import assets from "assets";
 
 export function Modal({ productos, actualizarCarrito }) {
   const eliminarProducto = (id) => {
@@ -59,7 +60,7 @@ export function Modal({ productos, actualizarCarrito }) {
                 onClick={() => eliminarProducto(producto.id)}
               >
                 <img
-                  src="/assets/img/eliminar.png"
+                  src={assets.eliminarImg}
                   className="w-full h-full"
                 />
               </button>
