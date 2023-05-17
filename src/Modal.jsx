@@ -60,7 +60,6 @@ export function Modal({ productos, actualizarCarrito }) {
               >
                 <img
                   src="src/eliminar.png"
-                  alt="Eliminar producto"
                   className="w-full h-full"
                 />
               </button>
